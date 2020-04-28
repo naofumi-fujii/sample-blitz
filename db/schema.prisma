@@ -20,8 +20,7 @@ generator client {
 
 // --------------------------------------
 
-//model Project {
-//  id        Int      @default(autoincrement()) @id
-//  name      String
-//}
-
+model Project {
+ id        Int      @default(autoincrement()) @id
+ name      String
+}
